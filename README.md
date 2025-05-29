@@ -35,36 +35,6 @@ React Context API
 
 Custom Hooks
 
-# 📂 Estrutura de Pastas
-css
-Copiar
-Editar
-src/
-├── assets/
-├── components/
-├── context/
-├── hooks/
-├── pages/
-├── services/
-├── utils/
-├── App.jsx
-├── main.jsx
-🔧 Como Rodar Localmente
-bash
-Copiar
-Editar
-#3 Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
-
-#3 Instale as dependências
-npm install
-
-## Rode o projeto
-npm run dev
-
-## 💡 Você precisa criar um arquivo .env com suas credenciais do Firebase para o backend:
-
 # 🔒 Segurança
 Tokens e dados sensíveis são protegidos via Firebase Auth.
 
