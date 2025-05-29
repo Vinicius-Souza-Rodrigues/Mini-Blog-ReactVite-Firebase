@@ -1,5 +1,5 @@
 # 📝 Blog Firebase React
-## Um projeto de blog moderno construído com React + Vite, utilizando Firebase como backend e banco de dados. O sistema permite autenticação de usuários, criação de posts com tags e imagens, e uma interface fluida com foco em desempenho, organização e escalabilidade.
+### Um projeto de blog moderno construído com React + Vite, utilizando Firebase como backend e banco de dados. O sistema permite autenticação de usuários, criação de posts com tags e imagens, e uma interface fluida com foco em desempenho, organização e escalabilidade.
 
 # 🚀 Funcionalidades
 🔐 Autenticação de usuários (login/cadastro com Firebase Authentication)
