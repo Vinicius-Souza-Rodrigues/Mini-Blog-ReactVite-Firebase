@@ -24,7 +24,7 @@
 
 🪝 Componentização e arquitetura de código limpa e reativa
 
-🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 React (com Vite)
 
 Firebase (Authentication, Firestore, Storage)
@@ -34,8 +34,6 @@ React Router DOM
 React Context API
 
 Custom Hooks
-
-TailwindCSS (se utilizado)
 
 # 📂 Estrutura de Pastas
 css
