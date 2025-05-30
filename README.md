@@ -1,79 +1,12 @@
-# 📝 Blog Firebase React
-#### Um projeto de blog moderno construído com React + Vite, utilizando Firebase como backend e banco de dados. O sistema permite autenticação de usuários, criação de posts com tags e imagens, e uma interface fluida com foco em desempenho, organização e escalabilidade.
+# React + Vite
 
-# 🚀 Funcionalidades
-🔐 Autenticação de usuários (login/cadastro com Firebase Authentication)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-📝 Criação, edição e exclusão de posts
+Currently, two official plugins are available:
 
-🏷️ Adição de tags aos posts
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🖼️ Upload e exibição de imagens
+## Expanding the ESLint configuration
 
-📌 Filtro de posts por tags
-
-📡 Integração com APIs (consumo externo, se necessário)
-
-🔄 Gerenciamento de estado com Context API + Providers
-
-🧠 Uso de Hooks personalizados
-
-📍 Navegação com React Router
-
-⚠️ Tratamento de leak de memória
-
-🪝 Componentização e arquitetura de código limpa e reativa
-
-# 🛠️ Tecnologias Utilizadas
-React (com Vite)
-
-Firebase (Authentication, Firestore, Storage)
-
-React Router DOM
-
-React Context API
-
-Custom Hooks
-
-# 🔒 Segurança
-Tokens e dados sensíveis são protegidos via Firebase Auth.
-
-Regras de segurança configuradas no Firebase Firestore e Storage.
-
-Upload de arquivos controlado e limitado por tipo e tamanho.
-
-⚠️ Cuidados Adotados
-🧼 Prevenção de vazamento de memória em componentes desmontados
-
-✅ Validação de formulários
-
-⛔ Feedback visual para erros de autenticação ou envio
-
-🌀 Carregamento assíncrono com loading states
-
-🪵 Logs e mensagens para debugging em dev mode
-
-
-✨ Futuras Melhorias
-Comentários nos posts 
-
-melhor tratamento de mensagens com toast por exemplo, 
-
-criação do campo curtida, 
-
-Perfil de usuário
-
-Internacionalização(mudar idioma do app)
-
-Responsividade aprimorada
-
-# 🧠 Aprendizados
-Esse projeto me permitiu explorar:
-
-A estruturação de uma aplicação React escalável
-
-A integração completa com serviços do Firebase
-
-O uso avançado de Context API e Hooks
-
-Boas práticas com gerenciamento de memória e recursos assíncronos
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
